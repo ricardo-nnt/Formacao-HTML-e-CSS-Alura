@@ -1,0 +1,57 @@
+.sobre{
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.sobre_titulo{
+
+    font-family: var(--montserrat);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--cinza-escuro);
+
+    margin-bottom: 1.5rem;
+
+}
+
+.sobre_texto{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+
+    line-height: normal;
+
+    margin-bottom: 1rem;
+
+}
+
+.sobre_lista{
+    
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.sobre_itens{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
+
+}
+
+.sobre__texto--destaque {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+

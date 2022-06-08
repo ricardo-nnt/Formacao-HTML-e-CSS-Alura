@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/planos.css">
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/institucional.css">
+    <link rel="stylesheet" href="css/rodape.css">
     <title>Home | Apeperia</title>
 </head>
 <body>
@@ -97,11 +98,13 @@
 
         <section class="sobre container">
 
+            <div class="sobre_conteudo">
+
             <h2 class="sobre_titulo">Sobre</h2>
             <p class="sobre_texto">Criamos aplicativos personalizados para <strong class="sobre__texto--destaque"> todas as pessoas! </strong> </p>
             <p class="sobre_texto">A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.
             </p>
-            <p class="sobre_texto sobre__texto--destaque">Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
+            <p class="sobre_texto sobre__texto--destaque sobre _texto--divisao">Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
             </p>
 
             <ul class="sobre_lista">
@@ -113,6 +116,11 @@
 
             <p class="sobre_texto">Desenvolvemos aplicativos para todas as plataformas</p>
 
+            </div>
+
+            <img class="sobre_imagem" src="img/sobre-apeperia.png" alt="Sobre Apeperia">
+
+            
         </section>
 
         <!--PLANOS-->
@@ -165,24 +173,66 @@
         <!--INSTITUCIONAL-->
 
         <section class="institucional container">
-            <h2 class="institucional_titulo">Institucional</h2>
-            <p class="institucional_descricao">Um pouco mais sobre a Apeperia</p>
+
             
-            <address class="institucional_endereco">
+                <h2 class="institucional_titulo">Institucional</h2>
+            
+            <div class="institucional_conteudo">
 
-                Rua Vergueiro, 3185 <br>
-                Vila Mariana, São Paulo
+                <div>
 
-                <article class="institucional_contato">
-                    <p>
-                        <a class="institucional_contato-telefone" href="tel:+551155712751">(11) 5571-2751</a>ou
-                        <a class="institucional_contato-email" href="mailto:contato@apeperia.com">contato@apeperia.com</a>
-                    </p>
-                </article>
-            </address>
+                    <p class="institucional_descricao">Um pouco mais sobre a Apeperia</p>
+            
+                    <address class="institucional_endereco">
+        
+                        Rua Vergueiro, 3185 <br>
+                        Vila Mariana, São Paulo
+        
+                        <article class="institucional_contato">
+                            <p>
+                                <a class="institucional_contato-telefone" href="tel:+551155712751">(11) 5571-2751</a>ou
+                                <a class="institucional_contato-email" href="mailto:contato@apeperia.com">contato@apeperia.com</a>
+                            </p>
+                        </article>
+                    </address>
+
+                </div>
+
+
+                    <video class="institucional_video" controls src="/Layouts_Responsivos_Mobile/img/formacao-java.mp4"></video>
+
+            </div>
+
+
+
+            
+        </section>
+
+        <!--RODAPÉ-->
+        <section>
+
         </section>
         
     </main>
+
+    <footer class="rodape container">
+        <img class="rodape_logo" src="img/logo-apeperia.svg" alt="Logo Apeperia">
+        <ul class="rodape_social">
+            <li class="rodape_midia"><a href="#"><img src="img/facebook.png" alt="Logo Facebook"></a></li>
+            <li class="rodape_midia"><a href="#"><img src="img/twitter.png" alt="Logo Twitter"></a></li>
+            <li class="rodape_midia"><a href="#"><img src="img/instagram.png" alt="Logo do Instagram"></a></li>
+        </ul>
+        <nav>
+            <ul class="rodape_navegacao">
+                <li class="rodape_link"><a href="#">Sobre</a></li>
+                <li class="rodape_link"><a href="#">Planos</a</li>
+                <li class="rodape_link"><a href="#">Blog</a</li>
+                <li class="rodape_link"><a href="#">Destaques</a</li>
+                <li class="rodape_link"><a href="#">Institucional</a</li>
+                <li class="rodape_link"><a href="#">Contato</a</li>
+            </ul>
+        </nav>
+    </footer>
 
 
 
